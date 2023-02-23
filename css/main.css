@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+  background: #E5E5E5;
+}
+
+body {
+  background: #E5E5E5;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+}
+
+.sect1 {
+  padding: 20px 0;
+  display: flex;
+  justify-content: center;
+}
+.sect1 .heading1 {
+  width: 169px;
+  height: 40px;
+  border: none;
+  border-radius: 8px;
+  background: #FFFFFF;
+  font-weight: 500;
+  font-size: 14px;
+  color: #3d06ef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.sect1 .hujurot {
+  width: 260px;
+  color: #5D5A6F;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 28px;
+  text-align: center;
+}
+.sect1 .clock {
+  width: 250px;
+  height: 250px;
+  border: none;
+  border-radius: 8px;
+  animation: bacg 15s infinite;
+  display: flex;
+  justify-content: center;
+}
+.sect1 .clock h3 {
+  font-weight: 700;
+  font-size: 32px;
+  color: #FFFFFF;
+  margin-top: 20px;
+  background: transparent;
+}
+@keyframes bacg {
+  0% {
+    background: url(../img/clock/Component\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  20% {
+    background: url(../img/clock/Component\ 2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  40% {
+    background: url(../img/clock/Component\ 3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  60% {
+    background: url(../img/clock/Component\ 4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  80% {
+    background: url(../img/clock/Component\ 5.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  100% {
+    background: url(../img/clock/Component\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+.sect2 {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mql {
+  text-align: center;
+  color: #0A033C;
+}
+
+.car1 {
+  border-radius: 10%;
+  border: none;
+}/*# sourceMappingURL=main.css.map */
