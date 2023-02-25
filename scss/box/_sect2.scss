@@ -1,20 +1,52 @@
 .sect2{
+    padding: 10px 10px;
     display: flex;
-    justify-content: center;
-    padding: 0 10px;
-}
-.container2{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     align-items: center;
+    justify-content: center;
 }
-.mql{
-    text-align: center;
-    color: #0A033C;
+.namoztime{
+    height: 70px;
+    overflow: hidden;
+    position: relative;
 }
+.namoztime p{
+    color: blue;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 1px;
+}
+.namoztime p:nth-child(1) {
+    animation: text-move 25s infinite;
+}
+@keyframes text-move{
+    0%{
+        margin-top: 0px;
+    }
+    20%{
+        margin-top: -70px;
 
-.car1{
-    border-radius: 10%;
-    border: none;
+    }
+    40%{
+        margin-top: -160px;
+    }
+    60%{
+        margin-top: -220px;
+    }
+    80%{
+        margin-top: -300px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+@media (max-width: 290px) {
+    .namoztime p{
+        color: blue;
+        font-size: 26px;
+        font-weight: 700;
+        line-height: 70px;
+        letter-spacing: 1px;
+    }
+
 }

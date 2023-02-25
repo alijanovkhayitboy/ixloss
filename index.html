@@ -5,19 +5,25 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&        display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
+    
+
     <title>Imom Muslim Masjidi</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg " style="background-color: #ffffff;">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="logo" src="./img/logo.jpg" alt=""></a>
+            <a class="navbar-brand" href="#">
+                <img class="logo" src="./img/logo.jpg" alt="logo">
+            </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -26,110 +32,95 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
+                        <a class="nav-link active" aria-current="page" href="#">
+                            <img class="img1" src="./img/home.gif" alt=""> Bosh Sahifa
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Kutubxona</a>
+                        <a class="nav-link" href="#">
+                            <img class="img1" src="./img/clock.gif" alt=""> Namoz Vaqtlari
+                        </a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
-                            Dropdown
+                            <img class="img1" src="./img/others.png" alt=""> Qo'shimcha
                         </a>
                         <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Sayt haqida</a></li>
-                            <li><a class="dropdown-item" href="#">Developer</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img1" src="./img/user.gif" alt=""> Mas'ul shaxslar
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img1" src="./img/trending-topic.gif" alt=""> Yangiliklar
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img1" src="./img/brickwall.png" alt=""> Masjid Qurilishi
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img1" src="./img/donate.gif" alt="donat">Yordam Qilish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img1" src="./img/library.gif" alt=""> Kutubxona</a>
+                            </li>
                             <li>
                                 <hr class="dropdown-divider">
                             </li>
-                            <li><a class="dropdown-item">Qo'shimcha</a></li>
+                            <li>
+                                <a class="dropdown-item" href="#">
+                                    <img class="img1" src="./img/vlogger.gif" alt=""> Dasturchi</a>
+                            </li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Kutubxona</a>
+                        <a class="nav-link disabled">Disabled</a>
                     </li>
                 </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
+                
             </div>
         </div>
     </nav>
+    <hr class="hr1">
     <section class="sect1">
         <div class="container1">
-            <h1 class="heading1">Imom Muslim Jome Masjidi</h1>
-            <p class="hujurot">Albatta, Allohning huzurida eng hurmatligingiz eng taqvodoringizdir. Albatta, Alloh
-                biluvchi va xabardor zotdir.</p>
-            <div class="clock">
-                <h3 class="clockh3">Namoz vaqtlari</h3>
+            <div class="info">
+                <h1 class="h1"> <img class="img1" src="./img/mosque.gif" alt=""> Imom Muslim Masjidi</h1>
+                <blockquote class="blockquote">
+                    <p> <img class="img1" src="./img/quran.gif" alt=""> Albatta, Allohning huzurida eng hurmatligingiz eng taqvodoringizdir. Albatta, Alloh biluvchi va xabardor zotdir.</p>
+                  </blockquote>
             </div>
+           
         </div>
     </section>
     <section class="sect2">
-        <div class="container2">
-            <h2 class="mql">Majsid Qurilishidan <br> lavhalar</h2>
-            <div id="carouselExample" class="carousel slide car1">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./img/photo_2023-02-22_22-03-17.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/photo_2023-02-22_22-03-19.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/photo_2023-02-22_22-03-22.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/photo_2023-02-22_22-03-25.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/photo_2023-02-22_22-03-28.jpg" class="d-block w-100" alt="...">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./img/photo_2023-02-22_22-03-31.jpg" class="d-block w-100" alt="...">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+        <div class="namoz">
+            <p class="h4"> <img class="img1" src="./img/muslim.gif" alt=""> Namoz Vaqtlari</p>
+            <div class="namoztime">
+                <p class="h2">Bomdod 5:35</p>
+                <p class="h2">Peshin 12:50</p>
+                <p class="h2">Asr 16:25</p>
+                <p class="h2">Shom 18:05</p>
+                <p class="h2">Xufton 19:35</p>
             </div>
         </div>
     </section>
     <section class="sect3">
         <div class="container3">
-            <h2 class="ehson">Ehsonning Mukofoti Faqat Ehsondur</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, impedit.</p>
-            <div id="carouselExampleFade" class="carousel slide carousel-fade">
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="./img/Cart  Geometric  6.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/Cart Holographic 1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="./img/Cart Minimal 3.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+
         </div>
     </section>
+
+
+
+
 
 
 
