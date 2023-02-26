@@ -123,5 +123,12 @@
   list-style: none;
 }
 .container7 .quran {
+  text-align: center;
   list-style: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container7 .quran audio {
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */

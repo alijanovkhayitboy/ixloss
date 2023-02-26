@@ -31,6 +31,15 @@
         list-style: none;
     }
     .quran{
+        
+        text-align: center;
         list-style: none;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        audio{
+            width: 100%;
+        }
+
     }
 }
